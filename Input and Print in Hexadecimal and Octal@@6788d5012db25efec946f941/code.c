@@ -1,8 +1,8 @@
 // Your code here...
 int main(){
-    int input;
-    scanf("%d", &input);
-    printf("Hexadecimal: %x", input);
-    printf("Octal: %o", input);
+    int input1;
+    scanf("%d", &input1);
+    printf("Hexadecimal: %x", input1);
+    printf("Octal: %o", input1);
 
 }
