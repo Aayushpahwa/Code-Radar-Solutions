@@ -4,5 +4,5 @@ int main(){
     int inpp;
     scanf("%d", inpp);
     printf("You entered: %d", inpp);
-    rerturn 0;
+    return 0;
 }
