@@ -6,7 +6,7 @@ int main(){
     scanf("%s", &num);
     scanf("%s", &num1);
 
-    printf("You entered: %s %s", num, num1);
+    printf("You entered: %s and %s", num, num1);
 
 
 
