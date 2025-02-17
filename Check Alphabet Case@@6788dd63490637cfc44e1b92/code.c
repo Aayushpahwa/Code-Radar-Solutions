@@ -3,16 +3,14 @@
 
 int main() {
     char c;
-
-    printf("Enter a character: ");
-    scanf(" %c", &c);
+    scanf("%c", &c);
 
     if (c >= 65 && c <= 90) {
-        printf("%c is an uppercase letter.\n", c);
+        printf("Uppercase");
     } else if (c >= 97 && c <= 122) {
-        printf("%c is a lowercase letter.\n", c);
+        printf("Lowercase");
     } else {
-        printf("%c is not a letter.\n", c);
+        printf("Not an alphabet");
     }
 
     return 0;
