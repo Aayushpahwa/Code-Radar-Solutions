@@ -7,7 +7,7 @@ int main(){
     if (a<b){
         pritnf("Profit");
     }
-    else if(a<b){
+    else if(a>b){
         pritnf("Loss");
     }
     else{
