@@ -1,6 +1,9 @@
 // Your code here...
 int a,b;
-scanf("%d %d", &a &b);
+scanf("%d", &a);
+scanf("%d", &b);
 a = a ^ b;
 b = a ^ b;
 a = a ^ b;
+
+printf("%d %d", a, b);
