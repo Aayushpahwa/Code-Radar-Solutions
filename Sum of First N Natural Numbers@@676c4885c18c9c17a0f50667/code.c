@@ -9,4 +9,5 @@ int main(){
         summ+=i;
         printf("%d", summ);
     }
+    return 0;
 }
