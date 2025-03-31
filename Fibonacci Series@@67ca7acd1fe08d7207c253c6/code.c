@@ -4,6 +4,6 @@ int fibonacciSeries(int n){
     int fibnmt = fibonacciSeries(n-2);
     int fibn= fibnm+fibnmt;
     
-    printf("%d ", fibn)
+    printf("%d ", fibn);
 
 }
